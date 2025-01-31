@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color:  #F2F4F7;
+}
+/*.Navbar{
+    position: sticky;
+    top: 0;
+    z-index: auto;
+}*/
+#show{
+  display: none;
+}
+.heading{
+  color: #0866FF;
+}
+/*.sidebar{
+  position: sticky;
+  top: 0;
+}*/
+#root{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.sidebar::-webkit-scrollbar{
+  width: 10px;
+  background-color: #BCC0C4;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+@media screen and (max-width:600px){
+  .postp{
+    width: 430px;
+  }
+  .sideLinks{
+    display: none;
+  }
+  .sidebar{
+    display: none;
+  }
+  .Rightbar{
+    display: none;
+  }
+.loginpage{
+        flex-direction: column;
+        align-items: center;
+        gap:4px;
+}
+.left{
+  margin-top: 950px;
+}
+}
