@@ -74,8 +74,8 @@ const[toastify,settoastify] = useState(false);
   const [password, setPassword] = useState("");
   const [name, setName] = useState("");
 
-  const username = "Harry";
-  const userpassword = "44321";
+  const username = "";
+  const userpassword = "";
   const changeText = (e) => {
       setName(e.target.value)
 };
